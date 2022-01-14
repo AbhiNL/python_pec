@@ -1,0 +1,90 @@
+# Question 1-Python program to find average of three numbers
+
+a = input("Enter First Number:")
+b = input("Enter Second Number:")
+c = input("Enter Third Number:")
+a = int(a)
+b = int(b)
+c = int(c)
+avg = (a+b+c)/3
+print("The average of a,b and c is =",avg)
+
+
+
+****************************************************************************************************************************************************************
+
+#Question 2- Persons's Income Tax Calculation
+
+a = input("Enter Gross Income:")
+Gross_income = float(a)
+
+b = input("Enter Number of dependents:")
+Number_of_dependents = int(b)
+
+taxable_income = (Gross_income-10000 - (3000*Number_of_dependents))
+
+print("INCOME TAX=",taxable_income*0.2)
+
+*******************************************************************************************************************************************************
+#Question 3- Displaying list in sorted manner
+
+M1 = input("Enter marks of student 1:")
+M2 = input("Enter marks of student 2:")
+M3 = input("Enter marks of student 3:")
+M4 = input("Enter marks of student 4:")
+M5 = input("Enter marks of student 5:")
+M1 = int(M1)
+M1 = int(M1)
+M2 = int(M2)
+M3 = int(M3)
+M4 = int(M4)
+M5 = int(M5)
+
+list = [M1 , M2 , M3 ,M4 ,M5 ]
+list.sort()
+print(list)
+
+*********************************************************************************************************************************************************************
+#Q4- Storing different data type values into a list.
+
+
+a = input("Enter sid:")
+a = int(a)
+b = input("Enter name:")
+c = input("Enter gender:")
+d = input("Enter course name:")
+e = input("Enter c.g.p.a:")
+e = float(e)
+#a=sid
+#b=student name
+#c=gender
+#d=course name
+#e=student's C.G.P.A
+Student_details = [ a, b ,c ,d ,e ]
+print("Students details:",Student_details)
+
+****************************************************************************************************************************************************************
+Q5- Removing element from list
+
+#PART-A
+color = ["Red", "Green", "White", "Black", "Pink", "Yellow"]
+color.pop(3)
+print(color)
+
+#PART-B
+
+color = ["Red", "Green", "White", "Black", "Pink", "Yellow"]
+color[3:5] = {"Purple"}
+print(color)
+
+
+
+
+
+
+
+
+
+
+
+
