@@ -1,0 +1,34 @@
+
+================= RESTART: D:\GM\python\projects\code-11.py =================
+Enter First Number: 5
+Enter Second Number: 5
+Enter Third Number: 5
+The average of a,b and c is = 5
+>>> 
+================== RESTART: D:\GM\python\projects\code-2.py ==================
+Enter Gross Income: 600000
+Enter Number of dependents: 4
+INCOME TAX= 115600.0
+>>> 
+================= RESTART: D:\GM\python\projects\code-33.py =================
+Enter marks of student 1: 95
+Enter marks of student 2:88
+Enter marks of student 3:45
+Enter marks of student 4:35
+Enter marks of student 5:75
+sorted list is: [35, 45, 75, 88, 95]
+>>> 
+==================== RESTART: D:\GM\python\projects\p1.py ====================
+Enter sid: 21104072
+Enter name: Abhishek
+Enter gender: M
+Enter course name: Electrical_Engineering
+Enter c.g.p.a: 9.5
+Students details: [21104072, 'name', 'gender', 'course', 9.5]
+>>> 
+================= RESTART: D:/GM/python/projects/code-5a.py =================
+['Red', 'Green', 'White', 'Pink', 'Yellow']
+>>> 
+================= RESTART: D:/GM/python/projects/code-5b.py =================
+['Red', 'Green', 'White', 'Purple', 'Yellow']
+>>> 
